@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aqua Glow Auto Spa</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="#inicio" class="logo">
+        <img src="img/logo 2.png" alt="Aqua Glow Auto Spa">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#antes-despues">Antes y Después</a></li>
+        <li><a href="#contacto">Agenda tu cita</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+      </ul>
+
+      <a href="https://wa.me/528334430781" target="_blank" class="nav-whatsapp">
+        WhatsApp
+      </a>
+    </nav>
+  </header>
+
+  
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <img src="img/logo.png" alt="Aqua Glow Auto Spa" class="hero-logo">
+
+      <p class="slogan">Rápido • Limpio • Brillante</p>
+
+      <div class="hero-buttons">
+        <a href="#servicios" class="btn btn-primary">Ver servicios</a>
+        <a href="https://wa.me/528334430781" target="_blank" class="btn btn-secondary">Agendar ahora</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="section nosotros">
+    <div class="container">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        En <strong>Aqua Glow Auto Spa</strong> cuidamos tu vehículo con productos de calidad,
+        atención personalizada y acabados premium. Nuestro objetivo es que tu auto luzca
+        limpio, brillante y protegido.
+      </p>
+
+      <div class="features">
+        <div class="feature">Limpieza profunda</div>
+        <div class="feature">Acabado premium</div>
+        <div class="feature">Servicio rápido</div>
+        <div class="feature">Atención confiable</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="section servicios">
+    <div class="container">
+      <h2>Elige tu servicio</h2>
+      <p class="section-text">Selecciona un paquete y agenda directamente por WhatsApp.</p>
+
+      <div class="cards">
+
+        <div class="card" data-servicio="Básico" data-precio="80">
+          <h3>Básico</h3>
+          <p>Lavado exterior, llantas, secado, aspirado básico y aromatizante.</p>
+          <span>$100</span>
+          <button>Seleccionar</button>
+        </div>
+
+        <div class="card" data-servicio="Plus" data-precio="120">
+          <h3>Plus</h3>
+          <p>Lavado exterior, llantas, aspirado completo, limpieza de plásticos y aroma premium.</p>
+          <span>$150</span>
+          <button>Seleccionar</button>
+        </div>
+
+        <div class="card" data-servicio="Premium" data-precio="180">
+          <h3>Premium</h3>
+          <p>Lavado completo, aspirado, limpieza de plásticos, encerado líquido y aroma premium.</p>
+          <span>$180</span>
+          <button>Seleccionar</button>
+        </div>
+
+        <div class="card" data-servicio="Premium Plus" data-precio="250">
+          <h3>Premium Plus</h3>
+          <p>Lavado exterior, interior, encerado, sellador y limpieza profunda de interiores.</p>
+          <span>$250</span>
+          <button>Seleccionar</button>
+        </div>
+
+      </div>
+
+      <div class="resumen">
+        <h3>Servicio seleccionado</h3>
+        <p id="servicioSeleccionado">Selecciona un paquete</p>
+        <strong id="precioSeleccionado">$0</strong>
+        <a id="whatsappBtn" href="https://wa.me/528334430781" target="_blank" class="btn btn-primary">
+          Agendar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="antes-despues" class="section galeria">
+    <div class="container">
+      <h2>Antes y Después</h2>
+      <p class="section-text">Resultados que se notan desde el primer lavado.</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <div class="tag">Antes</div>
+          <img src="img/antes.png" alt="Auto antes del lavado">
+        </div>
+
+        <div class="gallery-card">
+          <div class="tag pink">Después</div>
+          <img src="img/despues.png" alt="Auto después del lavado">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section contacto">
+    <div class="container">
+      <h2>Agenda tu cita</h2>
+      <p>
+        Escríbenos por WhatsApp y aparta tu lugar. Te atenderemos con gusto.
+      </p>
+
+      <a href="https://wa.me/528334430781?text=Hola,%20quiero%20agendar%20un%20servicio%20en%20Aqua%20Glow%20Auto%20Spa"
+         target="_blank"
+         class="btn btn-primary">
+        Agendar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <section id="ubicacion" class="section ubicacion">
+    <div class="container">
+      <h2>Ubicación</h2>
+      <p>Visítanos y deja tu auto en manos de profesionales.</p>
+
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1780051186861!6m8!1m7!1si14BEjsRNjNR-1mvqXPT7w!2m2!1d22.26542030128773!2d-97.83837926405212!3f89.24366240092118!4f-9.793622608486217!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Aqua Glow Auto Spa | Rápido • Limpio • Brillante</p>
+  </footer>
+
+  <img src="img/logo whats.jpg" alt="WhatsApp" target="_blank" class="float-whatsapp">
+    
+
+  <script src="js/script.js"></script>
+</body>
+</html>
