@@ -10,22 +10,29 @@
 <body>
 
   <header class="header">
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Navegación principal">
       <a href="#inicio" class="logo">
         <img src="img/logo 2.png" alt="Aqua Glow Auto Spa">
       </a>
-      <ul class="nav-links">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#antes-despues">Antes y Después</a></li>
-        <li><a href="#contacto">Agenda tu cita</a></li>
-        <li><a href="#ubicacion">Ubicación</a></li>
-      </ul>
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#antes-despues">Antes y Después</a></li>
+          <li><a href="#contacto">Agenda tu cita</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
 
-      <a href="https://wa.me/528334430781" target="_blank" class="nav-whatsapp">
-        WhatsApp
-      </a>
+        <a href="https://wa.me/528334430781" target="_blank" class="nav-whatsapp">
+          WhatsApp
+        </a>
+      </div>
     </nav>
   </header>
 
